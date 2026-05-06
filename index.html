@@ -4,11 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TSDEL.MEDIA</title>
+
   <link rel="stylesheet" href="style.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <!-- LOADER -->
@@ -21,9 +24,7 @@
   <nav class="navbar">
     <div class="logo">TSDEL.MEDIA</div>
 
-    <div class="menu-toggle" id="menu-toggle">
-      ☰
-    </div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
 
     <ul class="nav-links" id="nav-links">
       <li><a href="#home">Home</a></li>
@@ -37,15 +38,15 @@
   </nav>
 </header>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 <section class="hero" id="home">
 
   <div class="hero-slider">
-    <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1600&auto=format&fit=crop');"></div>
+    <div class="slide active" style="background-image:url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1600&auto=format&fit=crop');"></div>
 
-    <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1600&auto=format&fit=crop');"></div>
+    <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1600&auto=format&fit=crop');"></div>
 
-    <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop');"></div>
+    <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop');"></div>
   </div>
 
   <div class="overlay"></div>
@@ -53,30 +54,97 @@
   <div class="hero-content">
     <h1>TSDEL.MEDIA</h1>
 
-    <p class="tagline">
-      Unleashing creativity through cutting-edge technology
-    </p>
+    <p class="tagline">Unleashing creativity through cutting-edge technology</p>
 
-    <h2>
-      <span id="typing"></span>
-    </h2>
+    <h2><span id="typing"></span></h2>
 
     <div class="hero-buttons">
       <a href="#event" class="btn primary">Explore Events</a>
       <a href="#services" class="btn secondary">Our Services</a>
     </div>
   </div>
+
 </section>
 
 <!-- ABOUT -->
-<section class="about section" id="about">
+<section class="section" id="about">
   <div class="section-title">
     <h2>About TSDEL.MEDIA</h2>
   </div>
 
   <div class="about-content">
+    <p>
+      TSDEL.MEDIA is a creative media company focused on video production,
+      events, motion graphics, and digital storytelling.
+    </p>
   </div>
 </section>
+
+<!-- EVENT (IMPORTANT FOR JS COUNTDOWN) -->
+<section class="section" id="event">
+  <div class="section-title">
+    <h2>Upcoming Event</h2>
+  </div>
+
+  <div class="event-container">
+
+    <div class="countdown">
+      <div><span id="days">0</span>Days</div>
+      <div><span id="hours">0</span>Hours</div>
+      <div><span id="minutes">0</span>Minutes</div>
+      <div><span id="seconds">0</span>Seconds</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="section-title">
+    <h2>Services</h2>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card">Video Production</div>
+    <div class="service-card">Event Coverage</div>
+    <div class="service-card">Motion Graphics</div>
+    <div class="service-card">Digital Marketing</div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section" id="portfolio">
+  <div class="section-title">
+    <h2>Portfolio</h2>
+  </div>
+
+  <div class="portfolio-grid">
+    <img src="https://images.unsplash.com/photo-1524863479829-916d8e77f114?q=80&w=1600&auto=format&fit=crop" />
+    <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?q=80&w=1600&auto=format&fit=crop" />
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1600&auto=format&fit=crop" />
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="section-title">
+    <h2>Contact</h2>
+  </div>
+
+  <div class="contact-box">
+    <p>Email: contact@tsdel.media</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 TSDEL.MEDIA. All rights reserved.</p>
+</footer>
+
+<!-- WHATSAPP -->
+<a class="whatsapp-float" href="#" target="_blank">💬</a>
+
+<script src="script.js"></script>
 
 </body>
 </html>
